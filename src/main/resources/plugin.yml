@@ -1,0 +1,10 @@
+name: ServerLinks
+version: '${version}'
+main: dev.tarna.serverlinks.ServerLinks
+api-version: '1.20'
+
+commands:
+    serverlinks:
+        description: ServerLinks command
+        usage: /serverlinks reload
+        permission: serverlinks.command
