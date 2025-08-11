@@ -27,6 +27,10 @@ public class ServerLinksReload implements TabExecutor {
 
     @Override
     public List<String> onTabComplete(CommandSender commandSender, Command command, String s, String[] strings) {
-        return List.of("reload");
+        if (strings.length == 1) {
+            return List.of("reload");
+        }
+
+        return List.of();
     }
 }

@@ -15,7 +15,7 @@ public final class ServerLinks extends JavaPlugin {
 
         saveDefaultConfig();
         new ServerLinksReload(this);
-        new ServerLinksSendListener(this);
+        new PlayerJoinListener(this);
         loadLinks();
 
         getLogger().info("ServerLinks has been enabled in " + (System.currentTimeMillis() - now) + "ms");

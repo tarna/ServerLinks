@@ -1,7 +1,7 @@
 name: ServerLinks
 version: '${version}'
 main: dev.tarna.serverlinks.ServerLinks
-api-version: '1.20'
+api-version: '1.21.8'
 
 commands:
     serverlinks:
